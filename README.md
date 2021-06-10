@@ -19,19 +19,16 @@ https://github.com/auke-n/spring-petclinic
   <li>Open terminal(linux/mac)/command prompt(windows)</li>
   <li>Run <code>aws configure</code></li>
   <li>Provide the access key, secret key and region as requested</li>
-</ul>
-
-<strong>2. Setup 2-tier Infrastructure:</strong>
-<ul>
   <li>Unzip downloaded terraform file</li>
   <li>Add terraform executable file to your environment variable (Optional)</li>
-  <li>Download all the files leaving .gitignore and README.md files. <strong>Note: You must generate your own private & public key</strong></li>
-  <li>Open terminal(linux)/command prompt(windows)</li>
+  <li>In working directory create file ***connection.tf*** to configure provider</li>
+  <li>In working directory create file ***backend.tf*** to configure S3 bucket to store **`terraform.tfstate`** file</li>
   <li>Run <code>terraform init</code> command</li>
   <li>Run <code>terraform apply</code> command. Provide <strong>yes</strong> as input when asked and hit enter</li>
 </ul>
 
-<strong>3. Terraform Infrastructure:</strong>
+
+<strong>2. Terraform Infrastructure:</strong>
 <ul>
   <li>AWS region - eu-central-1 (Frankfurt)</li>
   <li>S3 bucket to store terraform.statefile</li>
