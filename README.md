@@ -31,7 +31,7 @@ https://github.com/auke-n/spring-petclinic
   <li>Run <code>terraform apply</code> command. Provide <strong>yes</strong> as input when asked and hit enter</li>
 </ul>
 
-<p>3. Terraform Infrastructure:</p>
+<strong>3. Terraform Infrastructure:</strong>
 <ul>
   <li>AWS region - eu-central-1 (Frankfurt)</li>
   <li>S3 bucket to store terraform.statefile</li>
