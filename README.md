@@ -21,8 +21,8 @@ https://github.com/auke-n/spring-petclinic
   <li>Provide the access key, secret key and region as requested</li>
   <li>Unzip downloaded terraform file</li>
   <li>Add terraform executable file to your environment variable (Optional)</li>
-  <li>In working directory create file ***connection.tf*** to configure provider</li>
-  <li>In working directory create file ***backend.tf*** to configure S3 bucket to store **`terraform.tfstate`** file</li>
+  <li>In working directory create file <code>connection.tf</code> to configure provider</li>
+  <li>In working directory create file <code>backend.tf</code> to configure S3 bucket to store <code>terraform.tfstate</code> file</li>
   <li>Run <code>terraform init</code> command</li>
   <li>Run <code>terraform apply</code> command. Provide <strong>yes</strong> as input when asked and hit enter</li>
 </ul>
